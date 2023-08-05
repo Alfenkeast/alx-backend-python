@@ -13,7 +13,7 @@ from utils import (
 )
 
 
-class TestAccessNestedMap(unittest.TestCase):
+class TestGithubOrgClient(unittest.TestCase):
     """Tests the `access_nested_map` function."""
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
